@@ -33,7 +33,7 @@ An Android application for learning programming concepts in Java, Python, and C 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/learn2code.git
+   git clone https://github.com/jon-obrien/learn2code.git
    ```
 
 2. Open the project in Android Studio
