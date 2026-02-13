@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+Does C have built-in constructors?,,No,Yes,Only for structs,Only for built-in types
+How do you initialize a struct in C?,,Using initializer lists or functions,Using constructor,Using __init__,Using new()
+What is the syntax to initialize a struct?,,struct Name var = {values};,Name var(values),Name var = new Name(),struct var = {values};
+How do you create an init function for structs?,,void init(struct Name *s),void Name(struct Name *s),constructor Name(),Name::Name()
+What is a common C pattern for initialization?,,Factory function returning struct,Constructor method,init() built-in,auto-initialization
+How do you allocate and initialize struct dynamically?,,malloc + init function,new operator,constructor call,auto initialization
+What happens to uninitialized struct members?,,Contain garbage values,Are set to zero,Throw error,Are undefined
+How do you copy a struct?,,Assignment (=),memcpy only,copy() function,clone() method
+What is designated initializer in C99?,,Initializing by member name,Copy initialization,Struct constructor,Member-wise assignment
+How do you zero-initialize a struct?,,= {0},= zero,= null,= void

@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What data structure is Stack based on?,,LIFO (Last In First Out),FIFO (First In First Out),LILO,FILO
+How do you implement stack in C?,,Using array or linked list,Using built-in Stack class,Using queue,Using tree
+What does top point to in array stack?,,Index of last element,Index of first element,Array size,Number of elements
+What is push operation?,,Add element at top,Remove element from top,View top element,Sort stack
+What is pop operation?,,Remove element from top,Add element at top,View top element,Clear stack
+How do you check if stack is empty?,,top == -1 or top == -1,top == 0,top == NULL,top == SIZE
+What happens when popping empty stack?,,Underflow error,Overflow error,Returns NULL,Returns 0
+What happens when pushing to full stack?,,Overflow error,Underflow error,Resizes automatically,Ignores push
+What is time complexity of push/pop?,,O(1),O(n),O(log n),O(n^2)
+What is a common stack application?,,Function call management,Sorting,Binary search,Hash table

@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What is a Linked List?,,Linear collection of nodes with data and next pointer,Array of connected elements,Tree structure,Circular array
+What is the time complexity of insertion at head?,,O(1),O(n),O(log n),O(n^2)
+What is the time complexity of insertion at tail?,,O(n) or O(1) with tail pointer,O(1) always,O(n) always,O(log n)
+What is the time complexity of searching?,,O(n),O(1),O(log n),O(n^2)
+How do you define a node in C?,"struct Node { int data; struct Node* next; }","struct Node { int data; Node next; }","typedef Node { int data; Node* next; }","struct { int data; Node* next; }")
+How do you create a new node?,,malloc(sizeof(struct Node)),new Node(),create_node(),Node()
+What does the last node point to?,,NULL,head,first node,itself
+What is a doubly linked list node?,,Node with next and prev pointers,Node with two data fields,List with two heads,Two connected lists
+What is used to free memory?,,free(),delete(),release(),dealloc()
+What traversal is used to print all elements?,,Follow next pointers until NULL,Use index access,Use for loop with size,Direct array access

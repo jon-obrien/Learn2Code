@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What method deletes a file in Java?,,file.delete(),file.remove(),file.erase(),file.destroy()
+What does delete() return if file doesn't exist?,,false,true,throws exception,null
+What class method deletes a file (Java 7+)?,,Files.delete(),File.remove(),FileUtils.delete(),Files.remove()
+What exception does Files.delete() throw if file doesn't exist?,,NoSuchFileException,FileNotFoundException,IOException,FileException
+How do you check if file exists before deleting?,,file.exists(),file.hasFile(),file.check(),file.present()
+What happens when you delete a non-empty directory?,,Returns false,Throws exception,Deletes directory and contents,Deletes only directory
+How do you delete a directory in Java?,,dir.delete(),dir.remove(),dir.rmdir(),dir.erase()
+What happens when deleteOnExit() is called?,,Deletes file when JVM exits,Deletes file immediately,Deletes on next reboot,Nothing
+What does Files.deleteIfExists() return?,,true if deleted, false otherwise,Always true,Always void,Throws exception
+Can you delete a read-only file with File.delete()?,,It may return false,Always true,Always throws exception,Deletes anyway

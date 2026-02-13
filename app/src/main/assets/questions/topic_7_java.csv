@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What is the purpose of a switch statement?,,To choose one of many code blocks to run,To repeat code,To declare variables,To handle errors
+Which keyword is used to exit a switch case?,,break,exit,return,stop
+What keyword specifies code to run if no cases match?,,default,else,other,none
+What data types can be used in a switch statement in Java?,,"int, char, String, enum","int, char, double","int, float, String","all data types"
+What happens if you omit the break statement in a case?,,Execution falls through to the next case,The switch exits,An error occurs,Nothing happens
+How do you check multiple values in one case?,,case 1: case 2: case 3:,case 1, 2, 3:,case 1 || 2 || 3:,case [1, 2, 3]:
+Can you use a switch statement with a byte?,,Yes,No,Only with int,Only with String
+What is the result if no case matches and no default exists?,,Nothing executes,An error is thrown,The first case runs,The switch returns null
+How do you declare a case for the value 5?,,case 5:,case == 5:,case(5),if 5:
+Can a switch statement be used with boolean values?,,No,Yes,Only true,Only false

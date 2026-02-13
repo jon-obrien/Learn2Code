@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What keyword starts a for loop in C?,,for,while,loop,iterate
+What are the three parts of a for loop header?,,"initialization; condition; update","condition; update; initialization","initialization; update; condition","start; end; step"
+How do you create an infinite for loop in C?,,for(;;),for(true),for(1),for(infinite)
+How do you iterate over an array of size 10?,,for(int i=0; i<10; i++),for(i=0; i<10; i++),for(i in 10),for(10)
+What does continue do in a for loop?,,Skips to the next iteration,Exits the loop,Pauses,Restarts
+Can you omit parts of a for loop header?,,Yes, all parts are optional,No,Only the update,Only the initialization
+What happens if the condition is omitted?,,Infinite loop,Compiler error,Loop runs once,Loop never runs
+Can you declare variables inside for loop init (C99+)?,,Yes,No,Only global variables,Only static variables
+What is the scope of a variable declared in for init (C99+)?,,Only within the loop,Entire function,Entire file,After the loop
+How do you iterate through a string in C?,,for(int i=0; s[i]!='\0'; i++),for(char c in s),for(s),for(int i=0; i<strlen(s); i++)

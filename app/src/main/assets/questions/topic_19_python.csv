@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What is a Binary Search Tree?,,Binary tree where left < parent < right,Binary tree with two children,Tree with sorted values,Balanced binary tree
+What is the time complexity of BST search (average)?,,O(log n),O(n),O(1),O(n log n)
+What is the worst case time complexity of BST search?,,O(n),O(log n),O(1),O(n^2)
+How do you implement a BST node in Python?,,Class with value, left, and right,Dictionary with key, tuple only,List of lists,Built-in tree class
+What is inorder traversal of BST?,,Ascending order,Descending order,Level order,Preorder
+How do you insert into a BST recursively?,,Compare and insert to left or right subtree,Insert at root,Use append(),Sort and insert
+How do you find minimum in BST?,,Go left until null,Go right until null,Check root,Use min() function
+How do you find maximum in BST?,,Go right until null,Go left until null,Check root,Use max() function
+What traversal prints BST in sorted order?,,Inorder,Preorder,Postorder,Level order
+How to handle duplicate values in BST?,,Ignore or count duplicates,Add to left,Add to right,Delete existing

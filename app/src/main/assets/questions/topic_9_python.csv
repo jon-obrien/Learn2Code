@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What keyword starts a for loop in Python?,,for,while,loop,iterate
+How do you iterate over a range of numbers?,,for i in range(5):,for i in 5:,for(i=0; i<5; i++):,for i to 5:
+What does range(5) produce?,,0, 1, 2, 3, 4,1, 2, 3, 4, 5,0, 1, 2, 3, 4, 5,5, 4, 3, 2, 1, 0
+How do you iterate over a list?,"for item in my_list:","for(item in my_list):","for i in my_list[]:","for each item in my_list:"
+What does enumerate() do?,,Returns index and value,Returns only index,Returns only value,Counts items
+How do you access both index and value?,,for i, v in enumerate(list):,for i, v in list:,for i in range(len(list)):,for v at i in list:
+What does continue do in a for loop?,,Skips to the next iteration,Exits the loop,Pauses,Restarts
+How do you iterate over dictionary keys?,"for key in dict:","for key in dict.keys():","for(key in dict):",Both A and B
+How do you create a reversed range?,,for i in range(5, 0, -1):,for i in reversed(range(5)):,for i in range(5).reverse():,Both A and B
+How do you skip every other element?,,for i in range(0, 10, 2):,for i in range(10, 2):,for i in range(10) skip 2:,for i in range(10): if i%2==0:

@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+Which of the following code will check if the string s = "madam" is a palindrome?,,if (s.equals(new StringBuilder(s).reverse().toString())) {,if (s == new StringBuilder(s).reverse().toString()) {,if (s.equals("madam")) {,if (s.reverse() == s) {
+What is the correct way to declare a string with the text 'Hello World'?,,String greetings = "Hello World";,char greetings = 'Hello World';,string greetings = "Hello World";,char[] greetings = {"Hello World"};
+How do you print the first character of the string greetings = "Hello"?,,System.out.println(greetings.charAt(0));,System.out.println(greetings[0]);,System.out.println(greetings.first());,System.out.println(greetings[1]);
+Which code correctly changes the first character of greetings = "Hello" to 'J'?,,greetings = 'J' + greetings.substring(1);,greetings[0] = 'J';,greetings.replace(0, 'J');,greetings.charAt(0) = 'J';
+How do you calculate the length of the string greetings = "Hello"?,,int length = greetings.length();,int length = len(greetings);,int length = greetings.size();,int length = greetings[0];
+How do you print a string named greetings?,,System.out.println(greetings);,print(greetings);,printf("%s", greetings);,echo greetings;
+How do you concatenate two strings String str1 = "Hello"; and String str2 = "World";?,,String result = str1 + str2;,String result = concat(str1, str2);,String result = str1.append(str2);,String result = combine(str1, str2);
+What is the correct way to check if "Hello" is in the string text = "Hello World"?,,if (text.contains("Hello")) {},if (text.indexOf("Hello") > 0) {},if (text.search("Hello")) {},if ("Hello" in text) {}
+How do you convert the string text = "hello" to uppercase?,,text = text.toUpperCase();,text = toUpperCase(text);,text = convert(text, "UPPER");,text = text.upperCase();
+How do you check if two strings are equal in Java?,,str1.equals(str2),str1 == str2,str1 = str2,compare(str1, str2)

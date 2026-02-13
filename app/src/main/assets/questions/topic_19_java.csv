@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What is a Binary Search Tree?,,Binary tree where left < parent < right,Binary tree with two children,Tree with sorted values,Balanced binary tree
+What is the time complexity of BST search (average)?,,O(log n),O(n),O(1),O(n log n)
+What is the worst case time complexity of BST search?,,O(n),O(log n),O(1),O(n^2)
+What makes a BST degenerate?,,All nodes on one branch,Balanced nodes,Two children per node,Sorted insertion only
+What is inorder traversal of BST?,,Ascending order,Descending order,Level order,Preorder
+How do you insert into a BST?,,Find correct position and add as leaf,Add at root,Add at any position,Add at leftmost
+How do you find minimum in BST?,,Go left until null,Go right until null,Check root,Search entire tree
+How do you find maximum in BST?,,Go right until null,Go left until null,Check root,Search entire tree
+What is the key property of BST nodes?,,Left subtree values < node < right subtree values,All nodes have two children,Tree is always balanced,All nodes have same value
+What happens when you delete a node with two children?,,Replace with inorder successor or predecessor,Become leaf,Delete entire subtree,Swap with root

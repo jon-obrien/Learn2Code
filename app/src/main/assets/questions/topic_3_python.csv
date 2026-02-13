@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+Which of the following code will check if the string s = "madam" is a palindrome?,,if s == s[::-1]:,if s == s[::2]:,if s == "madam":,if s.reverse() == s;
+What is the correct way to declare a string with the text 'Hello World'?,,greetings = "Hello World",greetings = 'Hello World';,greetings = ["Hello World"],char greetings = "Hello World"
+How do you print the first character of the string greetings = "Hello"?,,print(greetings[0]),print(greetings.charAt(0)),print(greetings{0}),print(greetings.first())
+Which code correctly changes the first character of greetings = "Hello" to 'J'?,,greetings = 'J' + greetings[1:],greetings[0] = 'J',replace(greetings[0], 'H', 'J'),greetings.change(0, 'J')
+How do you calculate the length of the string greetings = "Hello"?,,length = len(greetings),length = size(greetings),length = greetings.length(),length = greetings.size
+How do you print a string named greetings?,,print(greetings),echo greetings,System.out.println(greetings),printf("%s", greetings);
+How do you concatenate two strings str1 = "Hello" and str2 = "World"?,,result = str1 + str2,result = str1.concat(str2),result = concatenate(str1, str2),result = append(str1, str2)
+What is the correct way to check if 'Hello' is in the string text = "Hello World"?,,if 'Hello' in text:,if text.contains('Hello'):,if text.find('Hello') > 0:,if 'Hello' == text:
+How do you convert the string text = "hello" to uppercase?,,text.upper(),toUpperCase(text),convert(text, "UPPER"),text.upperCase()
+How do you check if a string starts with "Hello"?,,text.startswith("Hello"),text.startsWith("Hello"),text[0:5] == "Hello",text.begins("Hello")

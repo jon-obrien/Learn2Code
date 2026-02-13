@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+How do you create a new file in Python?,,open("file.txt", "w"),create("file.txt"),new file("file.txt"),file.create("file.txt")
+What mode creates a new file for writing?,,w,r,a,x
+What mode creates a file only if it doesn't exist?,,x,w,a,r
+What happens if you open a non-existent file in 'r' mode?,,Raises FileNotFoundError,Creates the file,Returns None,Returns empty string
+What happens if you open a file in 'w' mode?,,Creates/truncates the file,Only creates new file,Throws error if exists,Reads the file
+What method creates a directory?,,os.mkdir(),os.create_dir(),mkdir(),directory.create()
+What mode creates a file for both reading and writing?,,w+,r+,rw,wr
+How do you create a file using pathlib?,,Path("file.txt").touch(),Path.create("file.txt"),Path("file.txt").create(),Path.new("file.txt")
+What happens with mode 'a' on non-existent file?,,Creates the file,Throws error,Returns None,Opens for reading
+What method creates nested directories?,,os.makedirs(),os.mkdir(),os.nested_dirs(),os.makepath()

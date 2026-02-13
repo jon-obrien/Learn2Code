@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What is a Binary Search Tree?,,Binary tree where left < parent < right,Binary tree with two children,Tree with sorted values,Balanced binary tree
+What is the time complexity of BST search (average)?,,O(log n),O(n),O(1),O(n log n)
+What is the worst case time complexity of BST search?,,O(n),O(log n),O(1),O(n^2)
+How do you define a BST node in C?,"struct Node { int data; struct Node *left, *right; }","struct Node { int data; Node left, right; }","typedef struct { int data; Node *left, *right; }","struct BST { int data; }")
+How do you create a new BST node?,,malloc + initialize pointers,new Node(),create_node(),Node()
+What is inorder traversal of BST?,,Ascending order,Descending order,Level order,Preorder
+How do you insert into a BST?,,Recursively find position and link node,Insert at root,Use array index,Push to stack
+How do you find minimum in BST?,,Go left until null,Go right until null,Check root,Iterate all nodes
+How do you find maximum in BST?,,Go right until null,Go left until null,Check root,Use max() function
+What memory management is needed for BST?,,free() all nodes when done,malloc only,free() root only,No memory management needed

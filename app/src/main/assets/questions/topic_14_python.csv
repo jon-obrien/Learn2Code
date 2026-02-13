@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+Does Python support method overloading like Java?,,No, not directly,Yes identically,Only for constructors,Only in classes
+How can you simulate overloading in Python?,,"Using default args, *args, **args",Using override keyword,Using overload decorator,Using multiple definitions
+What happens with multiple same-named functions?,,The last definition replaces previous,All are kept,Compiler error,Runtime error
+How do you handle different argument types?,,Use isinstance() checks,Use type hints,Use function overloading,Use method override
+What decorator helps with overloading?,,functools.singledispatch,@overload,@overloading,@multimethod
+Can you define multiple signatures?,,Yes, using @overload for type hints,No,Yes, using overload keyword,Yes, using multiple def
+Does @overload create actual overloads?,,No, it's for type hints only,Yes,No, only for docs,Yes, for runtime
+How do you provide different behavior for different args?,,Use if/elif on arguments,Use separate functions,Use type checking,All of the above
+Can __init__ be overloaded?,,No, use default arguments,Yes, multiple __init__,Only with @overload,Only in subclasses
+What is the Pythonic approach to overloading?,,"Single function with flexible parameters","Multiple functions same name","Using only *args","Using type hints only"

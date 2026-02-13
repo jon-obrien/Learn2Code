@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What function creates a new file in C?,,fopen() with "w" mode,create(),newfile(),fcreate()
+What mode creates a new file for writing?,,w,r,a,wb
+What mode creates a file only if it doesn't exist?,,x,w,a,None of the above
+What happens if fopen() opens non-existent file in "r" mode?,,Returns NULL,Creates the file,Returns error,Returns empty file
+What happens when opening a file in "w" mode?,,Creates or truncates the file,Only creates if not exists,Throws error,Reads content
+What function creates a directory in C?,,mkdir(),createdir(),makedir(),dircreate()
+What mode creates a file for both reading and writing?,,w+,r+,rw,wr
+What happens with "a" mode on non-existent file?,,Creates the file,Returns NULL,Throws error,Opens for reading
+How do you check if file was created successfully?,,Check if fopen returns NULL,Check errno,Check file size,Check return value
+What happens fopen() with "w+" mode?,,Creates/truncates for both read/write,Read-only,Write-only,Append mode

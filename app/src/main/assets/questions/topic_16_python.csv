@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What keyword defines a class in Python?,,class,Class,def,struct
+What is the first parameter of instance methods?,,self,this,instance,object
+What is an object?,,An instance of a class,A class definition,A function,All of the above
+How do you create an instance of a class?,,className(),new className(),create className(),className.new()
+What is the constructor method called in Python?,,__init__,__construct__,constructor,__new__
+What is encapsulation?,,Hiding internal state,Public attributes only,Creating classes,Method overriding
+What does __ prefix indicate?,,Private attribute,Protected attribute,Public attribute,Special attribute
+What is inheritance syntax?,,class Child(Parent):,class Child extends Parent:,class Child : Parent,class Child inherits Parent
+What method checks if an object is an instance of a class?,,isinstance(),is_instance(),type(),is_a()
+What is polymorphism?,,Same method name, different behavior,Same class,Different class names,Multiple inheritance

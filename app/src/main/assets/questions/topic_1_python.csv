@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+How do you declare an integer variable in Python?,,x = 5,int x = 5,integer x = 5,var x = 5
+What is the type of x after: x = 5.0?,,"<class 'float'>","<class 'int'>","<class 'double'>","<class 'number'>"
+How do you declare multiple variables in one line?,,"a, b = 1, 2",a = 1, b = 2,int a = 1, b = 2,"a, b = (1) (2)"
+What is the type of: x = True?,,"<class 'bool'>","<class 'boolean'>","<class 'int'>","<class 'str'>"
+How do you declare a string variable?,,name = "John",String name = "John",string name = "John",name = 'John'
+Which is a valid variable name in Python?,,_myVar,2myVar,my-var,my var
+What is the type of x after: x = 5?,,"<class 'int'>","<class 'integer'>","<class 'float'>","<class 'number'>"
+How do you check the type of a variable?,,type(x),typeof(x),x.type(),getType(x)
+What happens when you assign a new value to a variable of different type?,,It changes the variable's type and value,It throws an error,It creates a new variable,It converts the value
+How do you assign the same value to multiple variables?,,a = b = c = 5,a, b, c = 5,int a = b = c = 5,"a = 5, b = 5, c = 5"

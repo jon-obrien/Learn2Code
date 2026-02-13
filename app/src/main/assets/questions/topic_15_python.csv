@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What is recursion?,,A function calling itself,Calling another function,Loop iteration,Class inheritance
+What is required to prevent infinite recursion?,,Base case,Return statement,Parameter,Loop
+What happens without a base case?,,RecursionError or stack overflow,Infinite loop,Memory leak,Compilation error
+What is the base case for factorial(0)?,,"return 1","return 0","raise Exception","return -1"
+What is the recursive case for factorial?,,n * factorial(n-1),factorial(n) * n,n + factorial(n-1),factorial(n-1)
+How do you set recursion limit?,,sys.setrecursionlimit(limit),setlimit(limit),recursion.setlimit(limit),sys.recursionlimit(limit)
+What is the default recursion limit?,,1000,500,10000,Unlimited
+Does Python optimize tail recursion?,,No,Yes,In Python 3.8+,Only with decorator
+What is the Fibonacci recursive formula?,,fib(n) = fib(n-1) + fib(n-2),fib(n) = fib(n) + fib(n-1),fib(n) = 2 * fib(n-1),fib(n) = fib(n-1) - fib(n-2)
+What error occurs when recursion is too deep?,,RecursionError,StackOverflowError,MemoryError,OverflowError

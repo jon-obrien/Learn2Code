@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+Which keyword is used to declare an integer variable in C?,,int,Integer,number,var
+What is the default value of an uninitialized local variable in C?,,Undefined (garbage value),0,null,0.0
+Which data type would you use to store the value 3.14?,,float or double,int,char,long
+What is the size of int in C (typical)?,,4 bytes,2 bytes,1 byte,8 bytes
+Which is a valid variable name in C?,,my_var,2myVar,my-var,my var
+What is the valid range of a char in C?,,At least -127 to 127 or 0 to 255,0 to 255 only,-128 to 127 only,0 to 127
+How do you declare a long variable with value 100?,,long x = 100L;,long x = 100;,Long x = 100;,long x = 100l;
+What format specifier is used for int in printf?,,%d,%i,%int,%number
+Which correctly declares a string in C?,,char s[] = "Hello";,string s = "Hello";,char s = "Hello";,String s = "Hello";
+What is the sizeof operator used for?,,Returns size in bytes,Returns type,Returns address,Returns value

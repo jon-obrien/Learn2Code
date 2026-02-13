@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What keyword starts a for loop in Java?,,for,while,loop,iterate
+What are the three parts of a for loop header?,,"initialization; condition; update","condition; update; initialization","initialization; update; condition","start; end; step"
+How do you create an infinite for loop?,,for(;;),for(true),for(infinite),for(1)
+How do you iterate over an array in Java?,,for(int i=0; i<arr.length; i++),for(i in arr),for(arr),for each arr
+What does continue do in a for loop?,,Skips to the next iteration,Exits the loop,Pauses,Restarts
+How do you iterate over a collection using for-each?,"for(Type item : collection)","for(item in collection)","for each(Type item : collection)","for(collection as item)"
+Can you declare multiple variables in for loop init?,,Yes, like for(int i=0, j=0; i<10; i++),No,Only same type,Only one variable
+What happens if the condition is omitted?,,Infinite loop,Compiler error,Loop runs once,Loop never runs
+How do you break out of nested loops?,,break with label,exit,return,double break
+What is the scope of a variable declared in for init?,,Only within the loop,Entire method,Entire class,After the loop

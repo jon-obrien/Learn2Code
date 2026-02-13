@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+Which of the following is the correct syntax for a list in Python?,,list = [1, 2, 3],list = (1, 2, 3),list = {1, 2, 3},list = 1, 2, 3
+Which data type would you use to store a series of numbers in Python?,,list,tuple,dict,set
+How can you convert a string to an integer in Python?,,int('5'),str(5),float('5'),list(5)
+Which of the following is used to store a collection of unique items in Python?,,set,list,tuple,dict
+Which data type in Python can store multiple items of different types?,,list,tuple,dict,set
+What is the default value of an integer variable in Python?,,0,None,False,null
+Which of the following will create a dictionary in Python?,,myDict = {'name': 'John', 'age': 36},myDict = [1, 2, 3],myDict = (1, 2, 3),myDict = {'apple', 'banana'}
+What type of data structure is a tuple in Python?,,Ordered, immutable,Ordered, mutable,Unordered, mutable,Unordered, immutable
+What is the correct syntax for creating a set in Python?,,mySet = {1, 2, 3},mySet = [1, 2, 3],mySet = (1, 2, 3),mySet = 1, 2, 3
+What type of data structure is a range in Python?,,Immutable sequence,Mutable sequence,Set,List

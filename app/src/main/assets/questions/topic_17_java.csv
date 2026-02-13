@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What is a constructor?,,A special method to initialize objects,A method to destroy objects,A variable initializer,A class definition
+Does Java provide a default constructor?,,Yes if no constructor is defined,No always,Yes always,Only for abstract classes
+What is the constructor's name?,,Same as the class name,Different from class,init,constructor
+What does a constructor return?,,Nothing,not even void,The object,void,The class
+How do you call another constructor from a constructor?,,this(),super(),constructor(),init()
+How do you call parent constructor?,,super(),this(),parent(),base()
+Can constructors be private?,,Yes,No,Only in abstract classes,Only in interfaces
+Can a constructor be final?,,No,Yes,Only in abstract classes,Only static classes
+What is constructor overloading?,,Multiple constructors with different parameters,Same constructor multiple times,Different return types,Inherited constructors
+Can constructors throw exceptions?,,Yes,No,Only unchecked exceptions,Only IOException

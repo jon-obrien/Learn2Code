@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What is method overloading?,,Multiple methods with same name, different parameters,Multiple methods with different names,Same method multiple times,Methods with different return types
+Can methods be overloaded by return type only?,,No,Yes,Sometimes,Only for void
+How can methods be overloaded?,,"Different parameter types, count, or order","Different return types","Different access modifiers","Different exception types"
+What determines which overloaded method is called?,,Method signature at compile time,Return type,Runtime,Generic types
+Is this valid: void add(int a) and int add(int a)?,"No, same signature","Yes, different return types","Sometimes","Only in different classes"
+Can static methods be overloaded?,,Yes,No,Only in same class,Only in different classes
+Can constructors be overloaded?,,Yes,No,Only default constructor,Only with parameters
+What happens with: add(5) when add(int) and add(long) exist?,,add(int) is called,add(long) is called,Compiler error,Runtime error
+Is this valid: void func(int... a) and void func(int[] a)?,,No, same signature,Yes,Different at runtime,Only valid in Java 11+
+Can main() method be overloaded?,,Yes,No,Only once,Only in different classes

@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What keyword defines a class in Java?,,class,Class,struct,def
+What is an object?,,An instance of a class,A class definition,A method,A variable
+What is encapsulation?,,Hiding internal state and requiring interaction via methods,Making everything public,Creating objects,Inheritance
+What keyword creates an object?,,new,create,instance,object
+What is the default value of an object reference?,,null,0,undefined,empty
+What is a class member?,,Field or method,Only fields,Only methods,Constructor
+What access modifier makes a member accessible anywhere?,,public,private,protected,default
+What is inheritance?,,Acquiring properties of one class to another,Hiding data,Creating objects,Method calling
+What keyword extends a class?,,extends,inherits,implements,super
+What is polymorphism?,,Same interface, different implementations,Same class, same behavior,Single inheritance,Data hiding

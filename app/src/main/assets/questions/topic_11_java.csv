@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What class creates a new file in Java?,,File,FileCreator,NewFile,FileWriter
+How do you create a new File object?,,new File("name.txt"),File.create("name.txt"),newFile("name.txt"),File("name.txt")
+What method creates an empty file if it doesn't exist?,,createNewFile(),create(),newFile(),makeFile()
+What exception can createNewFile() throw?,,IOException,FileException,CreateException,IOException
+What does createNewFile() return if file already exists?,,false,true,throws exception,null
+How do you create a file with FileWriter?,,new FileWriter("file.txt"),FileWriter.create("file.txt"),File.newWriter("file.txt"),createFileWriter("file.txt")
+What happens when FileWriter is created in non-append mode?,,Overwrites existing file,Throws exception,Appends to file,Creates backup
+How do you create a directory?,,dir.mkdir(),dir.create(),new Directory(),dir.make()
+How do you check if file creation succeeded?,,Check boolean return from createNewFile(),Check if file is null,Try to read the file,Check file size
+What class provides more control over file creation?,,Files,FileUtils,FileHandler,FileCreator

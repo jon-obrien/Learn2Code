@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+Does C support function overloading?,,No,Yes,Only for built-in types,Only in C11
+How can you simulate overloading in C?,,Using _Generic or variadic functions,Using override keyword,Using overload keyword,C doesn't support any simulation
+What is _Generic used for in C11?,,Type-generic programming,Generic classes,Template programming,Function overloading
+Can functions differ only by return type in C?,,No,Yes,Only with prototypes,Only static functions
+What is a variadic function?,,Function with variable number of arguments,Function with variable return type,Function with optional arguments,Generic function
+What header provides va_list for variadic functions?,,stdarg.h,stdarg.h,vararg.h,variable.h
+Can you create print(int) and print(float) in C?,"Not directly, use different names or _Generic",Yes,No,Only with C99
+What are printf and scanf examples of?,,Variadic functions,Overloaded functions,Generic functions,Template functions
+How does _Generic select expressions?,,Based on the type of a controlling expression,At runtime,Using templates,Based on return type
+Can you use _Generic to simulate overloading?,,Yes,No,Only for printing,Only for built-in types

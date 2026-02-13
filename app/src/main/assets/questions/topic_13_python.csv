@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+How do you define a function with a parameter?,,def func(x):,function func(x):,def func(x),func(x):
+What is the default argument passing in Python?,,By reference,By value,By pointer,By copy
+How do you set a default parameter value?,,def func(x=5):,def func(x: 5),def func(x default 5),func(x==5)
+Can default parameters be followed by non-default?,,No,Yes,Only in classes,Only with *
+What does *args represent?,,Variable positional arguments,Required arguments,Keyword arguments,Default arguments
+What does **kwargs represent?,,Variable keyword arguments,Variable positional arguments,Required arguments,Positional arguments
+How do you call a function with keyword argument?,,func(x=5),func(5=x),func{x:5},func[:x=5]
+Are Python parameters passed by reference or value?,,By reference (object reference),By value,By pointer,By copy
+How do you accept any number of arguments?,,def func(*args):,def func(args...):,def func(...args):,def func(args*):
+What type is args inside the function?,,tuple,list,dictionary,set

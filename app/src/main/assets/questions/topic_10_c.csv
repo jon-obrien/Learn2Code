@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What function opens a file in C?,,fopen(),open(),file_open(),fopen
+What mode opens a file for reading?,,r,w,a,rb
+What function reads a single character from a file?,,fgetc(),getc(),readchar(),freadchar()
+What function reads a string from a file?,,fgets(),fread(),gets(),freadstring()
+What function writes a character to a file?,,fputc(),putc(),writechar(),fwritechar()
+What function writes a string to a file?,,fputs(),fwrite(),puts(),fwritestring()
+What function closes a file?,,fclose(),close(),fileclose(),fclose
+What function checks for end of file?,,feof(),eof(),isEOF(),endoffile()
+What mode opens a file for binary reading?,,rb,r,rb+,rwb
+What does fopen return on failure?,,NULL,EOF,0,-1

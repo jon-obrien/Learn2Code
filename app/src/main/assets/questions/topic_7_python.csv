@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What keyword can be used as a replacement of switch in Python 3.10+?,,match,switch,case,default
+How is a default case defined in Python match?,,_,default,else,other
+What keyword is used to match specific values in Python?,,case,switch,when,value
+What is the Python equivalent of switch fall-through?,,No fall-through exists,Using continue,Using pass,Using break
+How do you match multiple values in one case?,,case 1 | 2 | 3:,case 1, 2, 3:,case [1, 2, 3]:,case 1 or 2 or 3:
+What happens after a matching case in Python's match?,,Only that case block executes,All cases execute,Next case executes,Error occurs
+Can Python's match be used with strings?,,Yes,No,Only integers,Only lists
+What does the underscore _ represent in a match statement?,,A catch-all pattern,A variable name,Nothing,An error
+Which Python version introduced match statements?,,Python 3.10,Python 3.8,Python 3.0,Python 2.7
+How do you match a list with specific values?,,case [1, 2, 3]:,case (1, 2, 3):,case "1, 2, 3":,case 1, 2, 3:

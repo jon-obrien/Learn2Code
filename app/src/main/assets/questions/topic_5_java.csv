@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What is the size of the 'int' data type in Java?,,4 bytes,2 bytes,8 bytes,16 bytes
+Which of the following is a primitive data type in Java?,,boolean,String,Array,Class
+Which data type would you use to store a true/false value in Java?,,boolean,int,char,String
+Which of the following is not a primitive data type in Java?,,String,char,float,boolean
+What is the size of a 'double' data type in Java?,,8 bytes,4 bytes,16 bytes,32 bytes
+What is the default value of a boolean variable in Java?,,false,true,0,null
+Which data type is used to store a single character in Java?,,char,int,String,boolean
+Which of the following data types is used to store decimal numbers in Java?,,double,int,boolean,char
+Which data type is used to store a sequence of characters in Java?,,String,int,char,double
+Which of the following is a valid declaration for a long data type in Java?,,long myNum = 5;,long myNum = 5000000000;,long myNum = 10.5;,long myNum = 'L';

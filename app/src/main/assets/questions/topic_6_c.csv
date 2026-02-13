@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+Fill in the blank to check if the number is greater than 3 in an if-else statement.,int num = 5;\nif (*blank*) {\n\tprintf("Number is greater than 3\n");\n} else {\n\tprintf("Number is 3 or less\n");\n},num > 3,num == 3,num < 3,num != 3
+Which operator checks if two values are equal?,,==,=,!=[],<>
+Which statement is used to specify a block of code to be executed if a condition is false?,,else,if,elseif,switch
+What is the purpose of the 'else' statement?,,To execute a block of code if the if condition is false,To execute a block of code if the if condition is true,To create a new condition,To repeat the previous condition
+What will the following code output?\nif (20 > 18) {\n  printf('20 is greater than 18');\n},,20 is greater than 18,Error,No output,20 is not greater than 18
+Which of the following is the correct syntax for an 'else if' statement?,,else if (condition) {},else (condition) {},else (condition),elseif (condition) {}
+Which operator checks if two values are not equal?,,!=,==,<>,!
+Which statement is used to check a new condition if the first condition is false?,,else if,else,if,break
+What is the correct syntax to check if a value is greater than another value?,,a > b,a < b,a >= b,a == b
+What will this code print?\nif (x == y) {\n  printf('Equal');\n} else {\n  printf('Not equal');\n},,Not equal,Equal,Error,No output

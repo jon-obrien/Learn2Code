@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What is a Linked List?,,Linear collection of nodes with data and next reference,Array of connected elements,Tree structure,Circular array
+What is the time complexity of insertion at head?,,O(1),O(n),O(log n),O(n^2)
+What is the time complexity of insertion at tail?,,O(n) or O(1) with tail pointer,O(1) always,O(n) always,O(log n)
+What is the time complexity of searching?,,O(n),O(1),O(log n),O(n^2)
+How do you implement a Node in Python?,,class Node with data and next attributes,Dictionary only,Tuple with two elements,Built-in Node class
+What does the last node point to?,,None,head,first node,itself
+What is a doubly linked list?,,Nodes with next and prev pointers,Nodes with two data fields,List with two heads,Two connected lists
+What is a circular linked list?,,Last node points to head,First node points to last,List in a circle,Recyclable list
+What built-in can be used as linked list?,,collections.deque,list,tuple,set
+What is the advantage over array?,,Dynamic size,Fixed size,Faster access,Less memory

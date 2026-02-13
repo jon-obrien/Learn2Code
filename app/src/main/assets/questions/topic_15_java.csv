@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What is recursion?,,A method calling itself,Calling another method,Loop iteration,Class inheritance
+What is the base case in recursion?,,Condition to stop recursion,First recursive call,The recursive call itself,Return statement
+What happens without a base case?,,Stack overflow error,Infinite recursion returns,Compilation error,Memory leak
+What is the factorial of n as recursion?,,n * factorial(n-1) with base case 0 or 1,n + factorial(n-1),factorial(n) * n,factorial(n+1) * n
+How many times does factorial(5) call itself?,,5 times,4 times,6 times,1 time
+What is the Fibonacci sequence?,,Each number is sum of two preceding,Each number is double previous,Each number is previous squared,Random sequence
+What is tail recursion?,,Recursive call is last operation,Recursion at the start,Multiple recursive calls,Recursion with tail
+Does Java optimize tail recursion?,,No,Yes,Sometimes,Only with -O flag
+What is mutual recursion?,,Two functions calling each other,Single function recursion,Recursive class,Recursive inheritance
+What is the recursion depth limit?,,Depends on stack size,Always 1000,Always 100,Unlimited

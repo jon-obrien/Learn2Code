@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What keyword defines a struct in C?,,struct,class,def,type
+What is a struct?,,A user-defined data type,A built-in type,A function,A header
+How do you create a struct variable?,,struct Name var;,Name var;,new Name(),struct var;
+What accesses struct members?,,dot operator (.),arrow operator (->),colon (:),double colon (::)
+What accesses struct members via pointer?,,arrow operator (->),dot operator (.),colon (:),ampersand (&)
+What does typedef do for structs?,,Creates an alias,Creates new type,Deletes struct,Renames members
+How do you pass struct to function by value?,,void func(struct Name var),void func(Name var),void func(struct Name *var),void func(*Name var)
+How do you pass struct by reference?,,void func(struct Name *var),void func(struct Name var),void func(Name &var),void func(*struct Name var)
+Can structs contain functions in C?,,No,Yes,Only function pointers,Only in C++
+What is object-oriented equivalent in C?,,Structs with function pointers,Classes,Objects,Methods

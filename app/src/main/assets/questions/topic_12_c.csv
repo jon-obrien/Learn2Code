@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What function deletes a file in C?,,remove(),delete(),erase(),unlink()
+What header file is needed for remove()?,,stdio.h,stdlib.h,unistd.h,fs.h
+What does remove() return on success?,,0,-1,1,true
+What does remove() return on failure?,,Non-zero value,0,Negative one,NULL
+Can remove() delete an open file?,,Behavior is implementation-defined,Yes,always,Yes,after closing,No,it fails
+What happens if file doesn't exist?,,Returns non-zero,Returns 0,Creates file,Throws exception
+How do you delete a directory in C?,,rmdir(),remove(),deletedir(),deldir()
+What header has rmdir()?,"<unistd.h> or <direct.h>","<stdio.h>","<stdlib.h>","<fs.h>"
+What does rmdir() require?,,Directory must be empty,Nothing,Root permission,Directory can have files
+What does rmdir() return on success?,,0,-1,1,true

@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What is the constructor method in Python?,,__init__,__construct__,constructor,__new__
+What is the first parameter of __init__?,,self,this,instance,cls
+What does __init__ return?,,None,The instance,self,The class
+Does Python have destructor?,,Yes, __del__,No,Yes, __destroy__,Yes, destructor()
+How do you call parent constructor?,,super().__init__(),parent().__init__(),super().__init__(),super()
+Can you have multiple __init__ methods?,,No, use default parameters instead,Yes,No,Python uses @overload to add multiple,Yes, with different parameters
+What is __new__ used for?,,Creating the instance before __init__,Initializing the instance,Destroying the instance,Calling parent class
+What happens if __init__ is not defined?,,Object is still created,Error occurs,Object is not created,Default values are used
+How do you pass arguments to constructor?,,__init__(self, args),constructor(args),__init__(args),init(args)
+What is the purpose of __repr__?,,String representation for developers,String for users,Constructor,Destructor

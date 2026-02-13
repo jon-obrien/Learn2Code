@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+Fill in the blank to check if the number is greater than 3 in an if-else statement.,if *blank*:\n\tprint("Number is greater than 3")\nelse:\n\tprint("Number is 3 or less")\n,num > 3,num == 3,num < 3,num != 3
+What will the following code output?\na = 33\nb = 200\nif b > a:\n  print('b is greater than a'),,b is greater than a,b is not greater than a,Error,No output
+What is the correct syntax for an 'if' statement?,,if condition:,if {condition},if (condition):,if condition;
+Which of the following conditional statements checks if the first condition is false and tests a new condition?,,elif,else if,else,if
+What will the following code output?\na = 33\nb = 33\nif b > a:\n  print('b is greater than a')\nelif a == b:\n  print('a and b are equal'),,a and b are equal,b is greater than a,Error,No output
+Which of the following is the correct syntax for an 'else' statement?,,else:,else if:,else (condition):,else {}
+What will this code print?\na = 200\nb = 33\nif b > a:\n  print('b is greater than a')\nelif a == b:\n  print('a and b are equal')\nelse:\n  print('a is greater than b'),,a is greater than b,b is greater than a,a and b are equal,Error
+What will the following code output?\na = 330\nb = 330\nprint('A') if a > b else print('=') if a == b else print('B'),,=,A,B,Error
+What logical operator is used to test if two conditions are both true?,,and,or,not,both
+Which logical operator is used to test if at least one condition is true?,,or,and,not,either

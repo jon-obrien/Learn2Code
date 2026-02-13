@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+10 > 9 is evaluated as True,,true,false,1,10 > 9
+The expression boolean x = 0; returns True,,false,true,None,x = 0;
+Is the expression 10 == 10 evaluated as True?,,true,false,None,10 == 10
+Does the expression 5 != 3 return True?,,true,false,None,5 != 3
+Is the statement boolean result = (10 < 9); evaluated as True?,,false,true,None,result = (10 < 9);
+Does boolean isActive = false; return False?,,true,false,None,isActive = false;
+Is the expression (10 == 10) && (5 == 5) evaluated as true?,,true,false,None,(10 == 10) && (5 == 5)
+Does the expression boolean isJavaFun = true; evaluate as true?,,true,false,None,isJavaFun = true;
+Is the statement System.out.println(0 == 0); evaluated as true?,,true,false,None,0 == 0
+Is 5 > 3 evaluated as true?,,true,false,None,5 > 3

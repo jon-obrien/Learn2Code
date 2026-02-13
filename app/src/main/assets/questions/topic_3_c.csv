@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+Which of the following code will check if the string s = "madam" is a palindrome?,,if (strcmp(s, strrev(strcpy(temp, s))) == 0) {,if (s == strrev(s)) {,if (strcmp(s, "madam") == 0) {,if (s.reverse() == s) {
+What is the correct way to declare a string with the text 'Hello World'?,,char greetings[] = "Hello World";,char greetings = "Hello World";,string greetings = "Hello World";,string greetings[] = {'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd'};
+How do you print the first character of the string greetings[] = "Hello"?,,printf("%c", greetings[0]);,printf("%s", greetings[0]);,printf("%c", greetings);,printf("%s", greetings);
+Which code correctly changes the first character of greetings[] = "Hello" to 'J'?,,greetings[0] = 'J';,greetings[0] = "J";,greetings[1] = 'J';,greetings[1] = "J";
+How do you calculate the length of the string greetings[] = "Hello"?,,int length = sizeof(greetings) / sizeof(greetings[0]);,int length = sizeof(greetings);,int length = strlen(greetings);,int length = sizeof(greetings) * sizeof(greetings[0]);
+How do you print a string using the printf() function?,,printf("%s", greetings);,printf("%c", greetings);,printf("%d", greetings);,printf("greetings");
+How do you concatenate two strings char str1[] = "Hello"; and char str2[] = "World"; into one?,,strcat(str1, str2);,str1 + str2;,combine(str1, str2);,append(str1, str2);
+What is the correct way to compare two strings char str1[] = "Hello"; and char str2[] = "Hello";?,,if (strcmp(str1, str2) == 0) {},if (str1 == str2) {},if (compare(str1, str2) == 0) {},if (str1.equals(str2)) {}
+How do you declare a string with individual characters 'H', 'e', 'l', 'l', 'o'?,,char greetings[] = {'H', 'e', 'l', 'l', 'o', '\0'};,char greetings[] = {"H", "e", "l", "l", "o"};,char greetings = "Hello";,string greetings[] = {"H", "e", "l", "l", "o"};
+What function returns the length of a string in C?,,strlen(),length(),size(),strsize()

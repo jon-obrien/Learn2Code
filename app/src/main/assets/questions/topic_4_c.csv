@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+Is 10 > 9 evaluated as true?,,true,false,1,10 > 9
+Does the expression int x = 0; return true?,,false,true,None,x = 0;
+Is the expression 10 == 10 evaluated as true?,,true,false,None,10 == 10
+Does the expression 5 != 3 return true?,,true,false,None,5 != 3
+Is the statement int result = (10 < 9); evaluated as true?,,false,true,None,result = (10 < 9);
+Does int isActive = 0; return true?,,false,true,None,isActive = 0;
+Is the expression (10 == 10) && (5 == 5) evaluated as true?,,true,false,None,(10 == 10) && (5 == 5)
+Does the expression int isJavaFun = 1; evaluate as true?,,true,false,None,isJavaFun = 1;
+Is the statement printf(0 == 0); evaluated as true?,,true,false,None,0 == 0
+Is 5 > 3 evaluated as true?,,true,false,None,5 > 3

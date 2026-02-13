@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What is recursion in C?,,A function calling itself,Calling another function,Loop iteration,Struct reference
+What is required to prevent infinite recursion?,,Base case to stop recursion,Return statement,Void function,Static variable
+What happens without a base case?,,Stack overflow,Infinite loop,Compilation error,Memory leak
+What is the base case for factorial of 0?,,"return 1","return 0","return -1","return NULL"
+What is the recursive formula for factorial?,,n * factorial(n-1),factorial(n) * n,n + factorial(n-1),factorial(n+1)
+How is recursion implemented internally?,,Using the call stack,Using heap memory,Using registers only,Using global variables
+What is tail recursion optimization?,,Compiler reuses stack frame,Using tail pointer,Faster recursion,Memory cleanup
+Can C compilers optimize tail recursion?,,Yes, depending on compiler and flags,No,Yes always,Only for simple functions
+What can cause stack overflow in recursion?,,Too deep recursion,Too large variables,Too many parameters,Using pointers
+What is the iterative equivalent of recursion?,,Using loops,Using pointers,Using arrays,Using structs

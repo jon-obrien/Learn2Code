@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Learn 2 Code</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="sign_in">Sign In</string>
+    <string name="continue_as_guest">Continue as Guest</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="logout">Clear Progress</string>
+    <string name="clear_progress">Clear Progress</string>
+    <string name="settings">Settings</string>
+    <string name="modules">Modules</string>
+    <string name="python">Python</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="select_programming_language">Select Programming Language</string>
+    <string name="loading">Loading…</string>
+    <string name="correct_answer">Correct</string>
+    <string name="incorrect_answer">Incorrect</string>
+    <string name="final_score">Final Score: %d/%d</string>
+    <string name="no_questions">No questions available for this topic and language</string>
+
+    <string name="module_1_title">Variables</string>
+    <string name="module_1_desc">Named storage locations for holding data</string>
+    <string name="module_2_title">Flow Control</string>
+    <string name="module_2_desc">Manage the execution path of a program</string>
+    <string name="module_3_title">Files</string>
+    <string name="module_3_desc">Store and read data that persists</string>
+    <string name="module_4_title">Functions</string>
+    <string name="module_4_desc">Reusable blocks of code</string>
+    <string name="module_5_title">Object Oriented Programming</string>
+    <string name="module_5_desc">Organize your code using objects and classes</string>
+    <string name="module_6_title">Data Structures</string>
+    <string name="module_6_desc">Store and organize data efficiently</string>
+
+    <string name="topic_1_title">Declaring Variables</string>
+    <string name="topic_1_desc">Learn how to create and name storage locations for data</string>
+    <string name="topic_1_info_python">Info for declaring python variables</string>
+    <string name="topic_1_info_java">Info for declaring java variables</string>
+    <string name="topic_1_info_c">Info for declaring C variables</string>
+
+    <string name="topic_2_title">Mathematics</string>
+    <string name="topic_2_desc">Explore numeric operations, calculations, and mathematical computations</string>
+    <string name="topic_2_info_python">Info for math in python</string>
+    <string name="topic_2_info_java">Info for math in java</string>
+    <string name="topic_2_info_c">Info for math in C</string>
+
+    <string name="topic_3_title">Strings</string>
+    <string name="topic_3_desc">Master text manipulation and character sequence handling</string>
+    <string name="topic_3_info_python">Info for strings in python</string>
+    <string name="topic_3_info_java">Info for strings in java</string>
+    <string name="topic_3_info_c">Info for strings in C</string>
+
+    <string name="topic_4_title">Boolean</string>
+    <string name="topic_4_desc">Understand true/false logic and conditional operations</string>
+    <string name="topic_5_title">Bonus Data Types</string>
+    <string name="topic_5_desc">Investigate advanced and specialized data representation methods</string>
+    <string name="topic_6_title">If Else Statements</string>
+    <string name="topic_6_desc">Control program flow with logical decision-making techniques</string>
+    <string name="topic_7_title">Switch</string>
+    <string name="topic_7_desc">Efficiently handle multiple condition scenarios and branching logic</string>
+    <string name="topic_8_title">While Loops</string>
+    <string name="topic_8_desc">Repeat code execution based on continuous conditional checking</string>
+    <string name="topic_9_title">For Loops</string>
+    <string name="topic_9_desc">Iterate through sequences with precise and controlled repetition</string>
+    <string name="topic_10_title">Read and Write to Files</string>
+    <string name="topic_10_desc">Learn persistent data storage and retrieval techniques</string>
+    <string name="topic_11_title">Create Files</string>
+    <string name="topic_11_desc">Understand file generation and management processes</string>
+    <string name="topic_12_title">Delete Files</string>
+    <string name="topic_12_desc">Master file removal and system cleanup techniques</string>
+    <string name="topic_13_title">Function Parameters</string>
+    <string name="topic_13_desc">Pass and manipulate data within function call mechanisms</string>
+    <string name="topic_14_title">Overloading</string>
+    <string name="topic_14_desc">Create multiple function versions with different input configurations</string>
+    <string name="topic_15_title">Recursion</string>
+    <string name="topic_15_desc">Solve complex problems using self-referential function techniques</string>
+    <string name="topic_16_title">Classes</string>
+    <string name="topic_16_desc">Design blueprint structures for organizing and encapsulating code</string>
+    <string name="topic_17_title">Constructors and Class Methods</string>
+    <string name="topic_17_desc">Initialize objects and define their behavioral characteristics</string>
+    <string name="topic_18_title">Stacks</string>
+    <string name="topic_18_desc">Implement last-in, first-out data management and storage</string>
+    <string name="topic_19_title">Binary Search Trees</string>
+    <string name="topic_19_desc">Organize data for efficient searching and hierarchical sorting</string>
+    <string name="topic_20_title">Linked Lists</string>
+    <string name="topic_20_desc">Create dynamic, flexible data storage with interconnected elements</string>
+
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="score_0_0">Score: %d/%d</string>
+    <string name="code">Code Playground</string>
+    <string name="no_quiz_scores">No quiz scores yet!</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="reports">Reports</string>
+    <string name="theme">Theme</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="language">Language:</string>
+</resources>

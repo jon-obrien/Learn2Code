@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What is the purpose of a switch statement?,,To choose one of many code blocks to run,To repeat code,To declare variables,To handle errors
+Which keyword is used to exit a switch case?,,break,exit,return,stop
+What keyword specifies code to run if no cases match?,,default,else,other,none
+What data types can be used in a C switch statement?,,"int, char","int, char, float","int, double","all data types"
+What happens if you omit break in a switch case?,,Execution falls through to the next case,The switch exits,Compiler error,Nothing happens
+Can you use a switch with float values in C?,,No,Yes,Only with cast,Only positive floats
+How do you check multiple values in one case?,,case 1: case 2: case 3:,case 1, 2, 3:,case 1 || 2 || 3:,case [1, 2, 3]:
+What happens if no case matches and no default exists?,,Nothing executes,Compiler error,Runtime error,First case runs
+How do you declare a case for character 'a'?,,case 'a':,case a:,case "a":,case == 'a':
+Can switch statements be nested in C?,,Yes,No,Only once,Only with integers

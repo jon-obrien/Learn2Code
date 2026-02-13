@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+Is 5 > 3 evaluated as True?,,True,False,None,5 > 3
+Does the expression bool(0) return False?,,True,False,None,0
+Is an empty string evaluated as False?,,True,False,None,""
+Does the expression bool([]) return False?,,True,False,None,[]
+Is the expression bool(10) evaluated as True?,,True,False,None,10
+Does the statement 10 == 9 return True?,,False,True,None,10 == 9
+Is the expression bool({'apple': 1}) evaluated as True?,,True,False,None,{'apple': 1}
+Does bool(None) return False?,,True,False,None,None
+Is the expression bool('Hello') evaluated as True?,,True,False,None,'Hello'
+The statement 0 == 0 returns True,,True,False,None,0 == 0

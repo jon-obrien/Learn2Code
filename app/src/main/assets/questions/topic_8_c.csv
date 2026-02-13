@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What keyword starts a while loop in C?,,while,loop,for,dowhile
+What is the minimum number of times a while loop executes?,,0,1,2,Infinite
+How do you exit a while loop prematurely?,,break,exit,return,stop
+What is an infinite while loop?,,while(1),while(true),while(infinite),while(true){}
+What does continue do in a while loop?,,Skips to the next iteration,Exits the loop,Pauses execution,Does nothing
+What happens if the condition is false initially?,,The loop never executes,The loop runs once,Compiler error,Infinite loop
+What is required after the while condition?,,Parentheses,Braces,Brackets,Semicolon
+What is the output: int x=0; while(x<3){x++;}?,"x = 3","x = 2","x = 4","x = 0"
+Can a while loop body be empty?,,Yes, only a semicolon,No,Yes without braces,Only with break
+What is a common use of while loops?,,Input validation,Variable declaration,File creation,Array initialization

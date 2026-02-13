@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What function deletes a file in Python?,,os.remove(),os.delete(),os.erase(),file.remove()
+What module must be imported to delete files?,,os,sys,file,filesystem
+What exception is raised if file doesn't exist?,,FileNotFoundError,FileError,DeleteError,IOException
+How do you check if file exists before deleting?,,os.path.exists(),file.exists(),os.exists(),file.check()
+What function deletes an empty directory?,,os.rmdir(),os.remove(),os.deldir(),os.rmdir
+What happens when removing a non-empty directory?,,Raises OSError,Deletes contents too,Does nothing,Deletes directory only
+What function deletes a directory tree?,,shutil.rmtree(),os.removetree(),os.deltree(),shutil.deldir()
+How do you safely delete a file that may not exist?,,Use try/except with os.remove(),Always succeeds,Returns False,Checks automatically
+What does os.remove() return on success?,,None,true,false,0
+How do you delete a file using pathlib?,,Path("file.txt").unlink(),Path("file.txt").delete(),Path("file.txt").remove(),Path.delete("file.txt")

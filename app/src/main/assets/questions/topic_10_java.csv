@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What class is used to read a text file in Java?,,FileReader,FileReaderWriter,TextReader,FileInput
+What class is used to read lines from a file efficiently?,,BufferedReader,FileReader,Scanner,LineReader
+How do you create a FileReader for "file.txt"?,,new FileReader("file.txt"),FileReader.open("file.txt"),new FileReader(file.txt),FileReader("file.txt")
+What exception must be handled when reading files?,,IOException,FileNotFoundException,FileException,ReadException
+How do you read a single character from a FileReader?,,read(),readChar(),get(),getChar()
+What method reads a line from BufferedReader?,,readLine(),read(),nextLine(),getLine()
+How do you check if more data exists in Scanner?,,hasNext(),hasNextLine(),hasMore(),hasData()
+What class writes text to a file?,,FileWriter,TextWriter,FileOutput,OutputStream
+How do you close a file reader?,,reader.close(),close(reader),reader.end(),reader.finish()
+What happens if you don't close a file?,,Resource leak,Memory leak,Data loss,Nothing

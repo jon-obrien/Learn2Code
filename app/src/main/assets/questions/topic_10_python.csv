@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+Which function opens a file for reading in Python?,,open(),read(),file_open(),fopen()
+What mode is used to open a file for reading?,,r,w,a,x
+What method reads the entire file content?,,.read(),.readall(),.readfile(),.get()
+What method reads one line at a time?,,.readline(),.read_line(),.getline(),.get()
+What keyword is used with open() for automatic cleanup?,,with,using,as,auto
+How do you read all lines into a list?,,.readlines(),.read_lines(),.getlines(),.readline()
+What mode appends to a file?,,a,r,w,rx
+How do you write to a file?,,file.write(),file.print(),file.output(),file.put()
+What mode opens a file for both reading and writing?,,r+,rw,w+,Both r+ and w+
+What is the proper way to close a file?,,file.close(),close(file),file.end(),file.done()

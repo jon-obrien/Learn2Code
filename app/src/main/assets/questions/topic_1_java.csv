@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+Which keyword is used to declare an integer variable in Java?,,int,Integer,number,Num
+What is the default value of an int variable in a class?,,0,null,undefined,0.0
+Which data type would you use to store the value 3.14?,,double,int,float,decimal
+How do you declare a constant variable in Java?,,final int x = 10;,const int x = 10;,static int x = 10;,constant int x = 10;
+What is the size of a char in Java?,,2 bytes,1 byte,4 bytes,8 bytes
+Which of the following is a valid variable name?,,_myVar,2myVar,my-var,class
+What is the valid range of a byte in Java?,,-128 to 127,0 to 255,-127 to 128,-256 to 255
+How do you declare a long variable with value 100?,,long x = 100L;,long x = 100;,Long x = 100;,long x = 100l;
+What is the default value of a boolean instance variable?,,false,true,null,0
+Which of the following declares a String variable correctly?,,String name = "John";,string name = "John";,String name = 'John';,str name = "John";

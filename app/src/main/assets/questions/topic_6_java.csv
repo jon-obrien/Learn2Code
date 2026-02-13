@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+Fill in the blank to check if the number is greater than 3 in an if-else statement.,int num = 5;\nif (*blank*) {\n\tSystem.out.println("Number is greater than 3");\n} else {\n\tSystem.out.println("Number is 3 or less");\n},num > 3,num == 3,num < 3,num != 3
+What is the correct syntax for an 'if' statement?,,if (condition) {},if condition {},if: condition {},if { condition }
+Which operator checks if two values are equal?,,==,=,>,<=
+Which of the following will execute if the condition in 'if' is false?,,else,elseif,switch,continue
+What will the following code print?\nint time = 15;\nif (time < 10) {\n  System.out.println('Good morning');\n} else if (time < 20) {\n  System.out.println('Good day');\n} else {\n  System.out.println('Good evening');\n},,Good day,Good morning,Good evening,Error
+Which of the following statements is used to specify a block of code to execute if the first condition is false?,,else if,else,if,continue
+What is the purpose of the 'else' statement?,,To execute a block of code if the if condition is false,To execute a block of code if the if condition is true,To create a new condition,To repeat the previous condition
+What will the following code output?\nint number = 20;\nif (number > 5) {\n  System.out.println('Greater than 5');\n} else {\n  System.out.println('Less than 5');\n},,Greater than 5,Less than 5,Error,No output
+Which of the following is the correct syntax for an 'else if' statement?,,else if (condition) {},else (condition) {},else (condition),elseif (condition) {}
+Which operator checks if two values are not equal?,,!=,==,<>,!

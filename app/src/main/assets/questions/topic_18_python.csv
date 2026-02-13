@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What data structure is Stack based on?,,LIFO (Last In First Out),FIFO (First In First Out),LILO,FILO
+What can be used as a stack in Python?,,list,collections.Stack,stack module,Stack class
+What method adds element to stack using list?,,append(),push(),add(),insert()
+What method removes element from stack using list?,,pop(),remove(),delete(),pull()
+How do you view top without removing?,,stack[-1],stack.peek(),stack.top(),stack[0]
+How do you check if stack is empty?,,not stack or len(stack)==0,stack.isEmpty(),stack.empty(),stack.is_empty()
+What exception from pop() on empty list?,,IndexError,EmptyStackException,ValueError,TypeError
+What does pop() return?,,The removed element,The new top,void,The list size
+What is time complexity of push/pop on list used as stack?,,O(1),O(n),O(log n),O(n^2)
+What is collections.deque better for as stack?,,Thread-safe operations,Faster indexing,Memory efficiency,Built-in peek

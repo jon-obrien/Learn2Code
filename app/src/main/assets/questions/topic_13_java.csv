@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+How do you declare a method with an int parameter?,,void method(int x),void method(int),void method x(int),method(int x)
+What is pass-by-value in Java?,,A copy of the value is passed,The original value is passed,Reference is passed,Pointer is passed
+How do you pass an array to a method?,,void method(int[] arr),void method(int arr[]),void method(array arr),Both A and B
+What is varargs syntax?,,int... nums,int[]... nums,int nums...,nums...int
+How many parameters can varargs accept?,,Zero or more,At least one,Exactly one,No limit
+Where must varargs parameter appear?,,Last in parameter list,First in parameter list,Anywhere,Middle only
+Can you have multiple varargs parameters?,,No,Yes,Only two,Only one per type
+How are objects passed to methods?,,By reference value,By value,By reference,By pointer
+What is method overloading based on parameters?,,Same name, different parameter list,Same name, same parameters,Different name,Different return type
+Can a method have no parameters?,,Yes,No,Only if void,Only static methods

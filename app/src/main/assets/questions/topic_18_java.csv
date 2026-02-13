@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+What data structure is Stack based on?,,LIFO (Last In First Out),FIFO (First In First Out),LILO,FILO
+What class provides stack in Java?,,java.util.Stack,java.util.Queue,java.util.List,java.util.Deque
+What method adds element to stack?,,push(),add(),insert(),put()
+What method removes element from stack?,,pop(),remove(),delete(),pull()
+What method views top without removing?,,peek(),top(),view(),look()
+What does empty() check?,,If stack is empty,If stack is null,If stack has one element,Stack capacity
+What exception occurs when popping empty stack?,,EmptyStackException,NullPointerException,StackOverflowException,NoSuchElementException
+What does push() return?,,The pushed element,The stack size,void,The removed element
+What is the time complexity of push/pop?,,O(1),O(n),O(log n),O(n^2)
+What is a common stack application?,,Undo operations,Sorting,Binary search,Hash table

@@ -1,0 +1,11 @@
+question_text,code_snippet,correct_answer,wrong_answer1,wrong_answer2,wrong_answer3
+How do you declare a function with an int parameter?,,void func(int x),void func(int),func(int x),int func(x)
+What is pass-by-value in C?,,A copy of the value is passed,The original is modified,Reference is passed,Pointer is passed
+How do you pass an array to a function?,,void func(int arr[]),void func(int[] arr),void func(int arr),void func(array arr)
+How do you pass by reference in C?,,Pass a pointer,Use & operator,Use ref keyword,Use * automatically
+What does void func(int *x) mean?,,x is a pointer to an int,x is an int,x is a reference,x is an array
+How do you pass a string to a function?,,void func(char *str),void func(string str),void func(char str),void func(str[])
+What is a function prototype?,,Declaration before definition,Definition before use,Same as function call,The function body
+Can a function have no parameters?,,Yes, use void,No,Yes, empty parentheses,Only in main
+What does void mean in parameter list?,,No parameters required,Any parameter,Return void,Default parameter
+How do you pass an array size?,,Pass as separate parameter,Array knows its size,Use sizeof(),Automatic
